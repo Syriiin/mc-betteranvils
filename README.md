@@ -4,6 +4,8 @@ This is just a small script for resetting the prior work penalty on all items in
 
 Why? Because the prior work penalty a dumb mechanic.
 
+WARNING: I haven't tested this pretty much at all, so backup your world before using it just in case.
+
 ## Usage
 ```shell
 $ pip install -r requirements.txt
