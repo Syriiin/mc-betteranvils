@@ -3,7 +3,7 @@ import sys
 from tqdm import tqdm
 from nbt import nbt, region
 
-world_path = sys.argv[0] or "./world/"
+world_path = sys.argv[1] or "./world/"
 
 if not os.path.exists(world_path):
     print("World folder not found. Specify path or place in directory with world folder.")
